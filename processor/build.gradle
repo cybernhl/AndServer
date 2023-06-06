@@ -8,6 +8,8 @@ compileJava {
 dependencies {
     api project(':annotation')
 
+    implementation "javax.activation:activation:1.1.1"//for jvm 11
+
     implementation deps.poet
     implementation deps.apache.lang
     implementation deps.apache.collections
