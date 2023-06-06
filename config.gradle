@@ -12,21 +12,21 @@ ext {
 
     androidBuild = [
         applicationId          : 'com.yanzhenjie.andserver.sample',
-        compileSdkVersion      : 29,
-        buildToolsVersion      : '29.0.3',
+        compileSdkVersion      : 30,
+        buildToolsVersion      : '30.0.3',
 
         libraryMinSdkVersion   : 9,
-        libraryTargetSdkVersion: 29,
+        libraryTargetSdkVersion: 30,
         sampleMinSdkVersion    : 14,
         sampleTargetSdkVersion : 22,
 
         versionCode            : 25,
-        versionName            : '2.1.2'
+        versionName            : '2.1.8'
     ]
 
     deps = [
         android: [
-            plugin    : 'com.android.tools.build:gradle:3.6.3',
+            plugin    : 'com.android.tools.build:gradle:4.2.1',
             annotation: 'androidx.annotation:annotation:1.1.0',
             compat    : 'androidx.appcompat:appcompat:1.1.0',
             material  : 'com.google.android.material:material:1.1.0',
