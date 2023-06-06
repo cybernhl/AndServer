@@ -32,5 +32,3 @@ dependencies {
     implementation deps.apache.fileupload
     compileOnly deps.android.annotation
 }
-
-apply from: '../bintray.gradle'

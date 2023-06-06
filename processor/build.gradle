@@ -12,5 +12,3 @@ dependencies {
     implementation deps.apache.lang
     implementation deps.apache.collections
 }
-
-apply from: '../bintray.gradle'

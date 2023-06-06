@@ -13,5 +13,3 @@ dependencies {
     implementation deps.android.plugin
     implementation deps.poet
 }
-
-apply from: '../bintray.gradle'
